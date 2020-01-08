@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class SQLQueryResponse implements DatabasesRepository {
+public class QueryProcessorRepository implements DatabasesRepository {
     Connection connection;
     Statement statement;
     ResultSet resultSet;
